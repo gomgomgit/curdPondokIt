@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#menu1 {
+	background : #0044cc;
+	color : white;
+	width : 97%;
+	margin : auto;
+	margin-bottom : 40px;
+	border-radius : 15px;
+	align-items : center;
+	position : relative;
+	top : 10px;
+	height : 120px;
+	display : flex;
+	justify-content : flex-end;
+				
+				
+	}
+	
+.menu2:last-child {
+	margin-right : 12px;
+}
+
+.menu2 {
+
+}
+.menuside {
+	position : absolute;
+	left : 40px;
+	font-size : 40px;
+}
+
+.button {
+	 background-color: #1c87c9;
+	 border-radius : 10px;
+	 width : 200px;
+	 height : 50px;
+	 border: none;
+	 color: white;
+	 padding: 20px 34px;
+	 text-align: center;
+	 text-decoration: none;
+	 display: inline-block;
+	 font-size: 20px;
+	 margin: 4px 8px;
+	 cursor: pointer;
+}
+.button:hover, .tambah:hover {
+	background :#02a;
+	color : #fff;
+}
+.data {
+	margin : 75px auto;
+	color : white;
+	padding : 20px;
+}
+.data tr td{
+	padding : 20px;
+	background-color : #39d;
+	
+}
+
+.tambah {
+	position : absolute;
+	right : 40px;	
+	top : 170px;
+	background-color : #39d;
+	color : white;
+	padding : 30px;
+	border : 2px solid #40c;
+	border-radius : 45px;
+	text-decoration : none;
+}
+
+.input {
+	margin: auto;
+	border : 2px solid navy;
+	background : #ddd;
+}
+.input input[type=submit] {
+	padding : 5px 15px;
+	border-radius : 45px;
+}
+.input p {
+	text-align : center;
+}
+.input td{
+	padding : 20px;
+}
+
+
+
+
+
+
+
+
+
